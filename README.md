@@ -6,19 +6,19 @@ Automatic install script for Debian based systems Ubuntu, Mint, Debian.
 
 Install Shift
 ```
-git clone https://github.com/shiftcurrency/shift.git && cd shift && ./shift_manager.bash install
+git clone https://github.com/densmirnov/shift.git && cd shift && bash shift.sh coldstart
 ```
 Start Shift
 ```
-./shift_manager.bash start
+bash shift.sh start
 ```
 Stop Shift
 ```
-./shift_manager.bash stop
+bash shift.sh stop
 ```
 Shift node status, is it running or not?
 ```
-./shift_manager.bash status
+bash shift.sh status
 ```
 
 
@@ -32,6 +32,7 @@ Shift node status, is it running or not?
 - Sebastian Stupurac <stupurac.sebastian@gmail.com>
 - Oliver Beddows <oliver@lisk.io>
 - Isabella Dell <isabella@lisk.io>
+- Denis Smirnov <densmirnov@me.com>
 
 ## License
 
